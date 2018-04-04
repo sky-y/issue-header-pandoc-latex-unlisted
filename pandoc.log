@@ -1,11 +1,11 @@
 pandoc --verbose -s -f markdown+raw_tex --toc --filter pandoc-latex-unlisted -H header.tex  book.md -o book.pdf
 [makePDF] temp dir:
-/tmp/tex2pdf.5941
+/tmp/tex2pdf.6093
 [makePDF] Command line:
-pdflatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/tex2pdf.5941" "/tmp/tex2pdf.5941/input.tex"
+pdflatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp/tex2pdf.6093" "/tmp/tex2pdf.6093/input.tex"
 
 [makePDF] Environment:
-("TEXINPUTS","/tmp/tex2pdf.5941:")
+("TEXINPUTS","/tmp/tex2pdf.6093:")
 ("SHELL","/bin/bash --login")
 ("_","/usr/bin/make")
 ("XDG_DATA_DIRS","/usr/local/share:/usr/share:/var/lib/snapd/desktop")
@@ -30,7 +30,7 @@ pdflatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp
 ("TERM","xterm-256color")
 ("MAKELEVEL","1")
 
-[makePDF] Contents of /tmp/tex2pdf.5941/input.tex:
+[makePDF] Contents of /tmp/tex2pdf.6093/input.tex:
 \PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
 \PassOptionsToPackage{hyphens}{url}
 %
@@ -90,7 +90,7 @@ pdflatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "/tmp
 % https://github.com/chdemko/pandoc-latex-unlisted/issues/1
 
 % UNCOMMENT BELOW TO FIX
-%\let\oldaddcontentsline\addcontentsline
+\let\oldaddcontentsline\addcontentsline
 
 \title{Sample of pandoc-latex-unlisted}
 \author{sky-y}
@@ -154,7 +154,7 @@ Unlisted}\label{appendix-unnumbered-unlisted}}
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(/tmp/tex2pdf.5941/input.tex
+(/tmp/tex2pdf.6093/input.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -218,20 +218,31 @@ No file input.aux.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd)
-! Undefined control sequence.
-\addcontentsline #1#2#3->\oldaddcontentsline 
-                                             {#1}{#2}{#3}
-l.100 ...}\label{appendix-unnumbered-.unnumbered}}
-                                                  
-!  ==> Fatal error occurred, no output PDF file produced!
-Transcript written on /tmp/tex2pdf.5941/input.log.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd) [1{/usr/local/texli
+ve/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/tmp/tex2pdf.6093/input.aux)
+
+Package rerunfilecheck Warning: File `input.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ){/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+lm/lmtk10.pfb>
+Output written on /tmp/tex2pdf.6093/input.pdf (1 page, 108715 bytes).
+Transcript written on /tmp/tex2pdf.6093/input.log.
 
 [makePDF] Run #2
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(/tmp/tex2pdf.5941/input.tex
+(/tmp/tex2pdf.6093/input.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -281,13 +292,13 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
-(/tmp/tex2pdf.5941/input.aux)
+(/tmp/tex2pdf.6093/input.aux)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/tmp/tex2pdf.5941/input.out) (/tmp/tex2pdf.5941/input.out)
+(/tmp/tex2pdf.6093/input.out) (/tmp/tex2pdf.6093/input.out)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd)
@@ -296,21 +307,24 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg)
-(/tmp/tex2pdf.5941/input.toc)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd)
-! Undefined control sequence.
-\addcontentsline #1#2#3->\oldaddcontentsline 
-                                             {#1}{#2}{#3}
-l.100 ...}\label{appendix-unnumbered-.unnumbered}}
-                                                  
-!  ==> Fatal error occurred, no output PDF file produced!
-Transcript written on /tmp/tex2pdf.5941/input.log.
+(/tmp/tex2pdf.6093/input.toc
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd)) [1{/usr/local/texl
+ive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/tmp/tex2pdf.6093/input.aux) ){/usr/local/texlive/2017/texmf-dist/fonts/enc/dv
+ips/lm/lm-ec.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx
+10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/lm/lmtk10.pfb>
+Output written on /tmp/tex2pdf.6093/input.pdf (1 page, 133558 bytes).
+Transcript written on /tmp/tex2pdf.6093/input.log.
 
 [makePDF] Run #3
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(/tmp/tex2pdf.5941/input.tex
+(/tmp/tex2pdf.6093/input.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -360,13 +374,13 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
-(/tmp/tex2pdf.5941/input.aux)
+(/tmp/tex2pdf.6093/input.aux)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/tmp/tex2pdf.5941/input.out) (/tmp/tex2pdf.5941/input.out)
+(/tmp/tex2pdf.6093/input.out) (/tmp/tex2pdf.6093/input.out)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd)
@@ -375,21 +389,24 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg)
-(/tmp/tex2pdf.5941/input.toc)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd)
-! Undefined control sequence.
-\addcontentsline #1#2#3->\oldaddcontentsline 
-                                             {#1}{#2}{#3}
-l.100 ...}\label{appendix-unnumbered-.unnumbered}}
-                                                  
-!  ==> Fatal error occurred, no output PDF file produced!
-Transcript written on /tmp/tex2pdf.5941/input.log.
+(/tmp/tex2pdf.6093/input.toc
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd)) [1{/usr/local/texl
+ive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/tmp/tex2pdf.6093/input.aux) ){/usr/local/texlive/2017/texmf-dist/fonts/enc/dv
+ips/lm/lm-ec.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx
+10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/lm/lmtk10.pfb>
+Output written on /tmp/tex2pdf.6093/input.pdf (1 page, 133558 bytes).
+Transcript written on /tmp/tex2pdf.6093/input.log.
 
 [makePDF] Run #4
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(/tmp/tex2pdf.5941/input.tex
+(/tmp/tex2pdf.6093/input.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -439,13 +456,13 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
-(/tmp/tex2pdf.5941/input.aux)
+(/tmp/tex2pdf.6093/input.aux)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/tmp/tex2pdf.5941/input.out) (/tmp/tex2pdf.5941/input.out)
+(/tmp/tex2pdf.6093/input.out) (/tmp/tex2pdf.6093/input.out)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd)
@@ -454,14 +471,16 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg)
-(/tmp/tex2pdf.5941/input.toc)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd)
-! Undefined control sequence.
-\addcontentsline #1#2#3->\oldaddcontentsline 
-                                             {#1}{#2}{#3}
-l.100 ...}\label{appendix-unnumbered-.unnumbered}}
-                                                  
-!  ==> Fatal error occurred, no output PDF file produced!
-Transcript written on /tmp/tex2pdf.5941/input.log.
+(/tmp/tex2pdf.6093/input.toc
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd)) [1{/usr/local/texl
+ive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/tmp/tex2pdf.6093/input.aux) ){/usr/local/texlive/2017/texmf-dist/fonts/enc/dv
+ips/lm/lm-ec.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx
+10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/lm/lmtk10.pfb>
+Output written on /tmp/tex2pdf.6093/input.pdf (1 page, 133558 bytes).
+Transcript written on /tmp/tex2pdf.6093/input.log.
 
-Makefile:22: recipe for target 'book.pdf' failed
