@@ -11,9 +11,6 @@ pandoc_options += --filter pandoc-latex-unlisted
 # Error when -H is given
 pandoc_options += -H $(header)
 
-# UNCOMMENT BELOW TO FIX
-# pandoc_options += -M --header-includes:'%'
-
 ### make all
 .PHONY: all
 all: $(pdf)
